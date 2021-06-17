@@ -6,8 +6,8 @@ window.addEventListener("DOMContentLoaded", function(){
     botao_plataforma_ativa.addEventListener("click", function(){
         console.log("clicou no botão");
         //mask.style.opacity = 1;
-        mask.classList.add("mostra-mask");
-        plataforma1.classList.add("amplia");
+        mask.classList.toggle("mostra-mask");
+        plataforma1.classList.toggle("amplia");
     });
-    mask.style.opacity = 0;
+    //mask.style.opacity = 0;
 });
