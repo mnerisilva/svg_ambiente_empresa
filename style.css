@@ -1,3 +1,29 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+svg {
+    width: 70%;
+}
+
 .amplia {
-    transform: scale(2,3);    
+    transition: transform 1s;
+    transform: translate(2px, -10%)  
+}
+
+.mostra-mask {
+    transition: opacity 1s;
+    opacity: 1 !important;
+}
+
+.botao-plataforma-ativa:hover {
+    opacity: .5;
+    cursor: pointer;
 }
