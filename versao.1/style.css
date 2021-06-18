@@ -1,0 +1,44 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+svg {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+#plataforma1 {
+    transition: transform 1s;
+    transform: translate(0px, 0);
+}
+.amplia {
+    transition: transform 1s;
+    transform: translate(2px, -10%) !important; 
+}
+
+#mask {
+    transition: opacity 1s;
+    opacity: 0;    
+}
+.mostra-mask {
+    transition: opacity 1s;
+    opacity: 1 !important;
+}
+
+/*#botao-plataforma-ativa:hover {*/
+#plataforma1:hover {/*    
+    transition: opacity .5s;
+    opacity: 0.5;*/
+    cursor: pointer !important;
+}

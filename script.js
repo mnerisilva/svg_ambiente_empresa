@@ -1,7 +1,7 @@
 window.addEventListener("DOMContentLoaded", function(){
-    console.log('carrgou');
+    console.log('carregou');
     //let mask = document.getElementById("mask");
-    let botao_plataforma_ativa = document.getElementById("botao-plataforma-ativa");
+    let grupo_botao_1 = document.getElementById("grupo-botao-1");
     let plataforma1 = document.getElementById("plataforma1");
     //botao_plataforma_ativa.addEventListener("click", function(){
     plataforma1.addEventListener("click", function(){
