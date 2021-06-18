@@ -16,7 +16,7 @@ svg {
 
 #plataforma1 {
     transition: transform 1s;
-    transform: translate(0px, 0)  
+    transform: translate(0px, 0);
 }
 .amplia {
     transition: transform 1s;
@@ -32,8 +32,9 @@ svg {
     opacity: 1 !important;
 }
 
-#botao-plataforma-ativa:hover {
+/*#botao-plataforma-ativa:hover {*/
+#plataforma1:hover {/*    
     transition: opacity .5s;
-    opacity: 0.5;
+    opacity: 0.5;*/
     cursor: pointer !important;
 }
