@@ -14,8 +14,8 @@ body {
 
 
 svg {
-    width: 100vw;
-    height: 100vh;
+    /*width: 100vw;
+    height: 100vh;*/
 }
 
 
@@ -57,7 +57,7 @@ svg {
     /*top: 10em;*/
     transition: height 1s, bottom 1s ease-in-out;
     /*height: 0;*/
-    bottom: 90px;
+    bottom: 145px;
 
 }
 .area-popup {
@@ -93,7 +93,7 @@ svg {
     transition: height 1s, bottom 1s ease-in-out;
     /*height: 265px;*/
     bottom: 0px !important;
-    bottom: 90px !important;
+    bottom: 145px !important;
 }
 
 .mostra-area-popup {
@@ -105,6 +105,7 @@ svg {
 .wrapper-svg {
     /*border: solid blue 10px !important; */
     overflow: hidden;
-    width: 1200px;
+    width: 1024px;
     display: flex;
+    height: 682px;
 }
