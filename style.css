@@ -12,6 +12,7 @@ body {
     height: 100vh;
 }
 
+
 svg {
     width: 100vw;
     height: 100vh;
@@ -41,4 +42,69 @@ svg {
     transition: opacity .5s;
     opacity: 0.5;*/
     cursor: pointer !important;
+}
+
+
+.wrapper-popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 690px;
+    /*height: 265px;*/
+    /*border: solid thin red;*/
+    overflow: hidden;
+    /*top: 10em;*/
+    transition: height 1s, bottom 1s ease-in-out;
+    /*height: 0;*/
+    bottom: 90px;
+
+}
+.area-popup {
+    display: flex;
+    align-items: center;
+    /*display: none;*/
+    transition: margin-Left 1s;;
+    margin-left: -1600px !important;
+}
+
+.area-popup .popup {
+    /*position: absolute;*/
+    width: 25em;
+    border: solid 3px #fff;
+    padding: 1.5em;
+    background-color: #6ad1e5eb;
+    color: #fff;
+    font-size: 1.1em;
+    transition: top 1s;
+    /*top: -850px;*/
+    line-height: 1.5em;
+    /*z-index: -1;*/
+    font-size: 1.5em;
+    }
+
+.mostrar-popup {
+    transition: transform, top 1s;
+    transform: translate(2px) !important; 
+    top: -250px !important;
+}
+
+.mostra-wrapper {
+    transition: height 1s, bottom 1s ease-in-out;
+    /*height: 265px;*/
+    bottom: 0px !important;
+    bottom: 90px !important;
+}
+
+.mostra-area-popup {
+    transition: margin-Left 1s;
+    margin-left: -30px !important;
+
+}
+
+.wrapper-svg {
+    /*border: solid blue 10px !important; */
+    overflow: hidden;
+    width: 1200px;
+    display: flex;
 }
